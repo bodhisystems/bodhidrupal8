@@ -42,3 +42,7 @@ sites/simpletest
 # Ignore core phpcs.xml and phpunit.xml.
 core/phpcs.xml
 core/phpunit.xml
+.idea/BODHI.iml
+.idea/modules.xml
+.idea/workspace.xml
+composer.phar
