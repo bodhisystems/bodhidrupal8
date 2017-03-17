@@ -1,8 +1,20 @@
 // Default variables.
-@import "default-variables";
+@import "branding/variables";
 
 // Bootstrap Framework.
-@import '../bootstrap/assets/stylesheets/bootstrap';
+@import 'branding/bootstrap';
 
-// Base-theme overrides.
-@import 'overrides';
+// jQuery UI style overrides.
+@import "component/jquery-ui/autocomplete";
+
+// Block Grid
+@import "component/zurb/block-grid";
+
+// Flex Slider
+@import "component/flexslider";
+
+// Search Box
+@import "component/searchbox";
+
+// Component Override
+@import "component/overrides";

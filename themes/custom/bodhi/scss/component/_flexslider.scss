@@ -86,7 +86,7 @@ html[xmlns] .flexslider .slides {
   border: 4px solid #fff;
   position: relative;
   zoom: 1;
-  @include border-radius(4px);
+  //@include border-radius(4px);
   @include box-shadow(0, 1px, 4px, rgba(0, 0, 0, 0.2));
   .slides {
     zoom: 1;
