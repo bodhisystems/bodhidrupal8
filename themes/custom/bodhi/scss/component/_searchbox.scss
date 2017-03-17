@@ -1,0 +1,42 @@
+//
+// Base Styles
+//
+.widget-searchbox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: block;
+  font-size: 14px;
+
+  .box-title {
+    border-bottom: 5px solid $AMSGrassGreen;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .by-categoty {
+    margin-bottom: 10px;
+    border-bottom: 1px solid $AMSLightGray;
+    padding-bottom: 10px;
+    color: $AMSGrassGreen;
+    label {
+      font-weight: normal!important;
+    }
+    &.charts-label {
+      padding-top: 10px;
+    }
+  }
+}
+
+
+//
+// Responsive Styles
+//
+
+// Small
+@media (max-width: 766px){
+  .widget-searchbox {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}

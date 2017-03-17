@@ -1,0 +1,157 @@
+ol, ul {
+  padding-left: 1.5em;
+  list-style-type: none;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.breadcrumb-bar {
+  padding: 6px 0;
+  .pull-left span {
+    line-height: 25px;
+  }
+  .btn {
+    border-radius: 0;
+    background: $AMSDarkGreen;
+    color: $AMSWhite;
+    border: none;
+    padding: 3px 25px;
+    font-size: 14px;
+    height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.mars-footer {
+  background: $AMSDarkGreen;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      border-left: 1px solid $AMSWhite;
+      margin: 20px 0;
+
+      &:first-child {
+        border: none;
+      }
+      a {
+        color: $AMSWhite!important;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+//
+// Responsive
+//
+
+// Small
+@media (max-width: 766px){
+  .container {
+    padding: 0 15px;
+  }
+  .navbar-brand {
+    margin: 0 -5px;
+    padding: 0;
+  }
+  .mars-footer {
+    .container {
+      padding: 0;
+    }
+    ul li {
+      margin: 5px 0;
+      border-left: none;
+    }
+  }
+}
+
+// Medium Only
+@media (min-width: 767px) and (max-width: 991px){
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Footer.
+.footer {
+  padding-bottom: 36px;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}
+
+// Help region.
+.region-help {
+  > .glyphicon {
+    font-size: $font-size-large;
+    float: left;
+    margin: -0.05em 0.5em 0 0;
+  }
+  .block {
+    overflow: hidden;
+  }
+}
+
+
+.help-block, .control-group .help-inline {
+  color: $gray-light;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+// form control
+.form-control {
+  border-radius: 0;
+}
+// flex slider
+.flexslider {
+  border: 0;
+  .slides {
+    img {
+      height: 255px;
+    }
+  }
+}
+
+.flex-control {
+  &-nav {
+    bottom: 50px;
+    li a {
+      background: #eee;
+      background: rgba(244,244,244,0.5);
+      &.flex-active, &:hover, &:focus {
+        background: #fff;
+        background: rgba(255,255,255,1);
+      }
+    }
+  }
+}
+
+.flex-direction-nav a {
+  height: 60px;
+  &:before {
+    color: rgba(255, 255, 255, 1);
+  }
+}
