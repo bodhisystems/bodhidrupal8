@@ -17,8 +17,7 @@ vendor
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 sites/*/services*.yml
-#sites/*
-.idea/*
+
 
 # Ignore paths that contain user-generated content.
 sites/*/files
@@ -43,7 +42,13 @@ sites/simpletest
 # Ignore core phpcs.xml and phpunit.xml.
 core/phpcs.xml
 core/phpunit.xml
-.idea/BODHI.iml
-.idea/modules.xml
-.idea/workspace.xml
+
+
+# Ignore .idea folder
+sites/*
+.idea/*
+/node_modules
+/themes/bootstrap
+/modules/devel
 composer.phar
+'~/
