@@ -17,3 +17,5 @@ bootstrap-scripts:
     js/bootstrap/scrollspy.js: {}
     js/bootstrap/tab.js: {}
     js/bootstrap/transition.js: {}
+    js/jquery.flexslider.js: {}
+    js/slideshow.js: {}
